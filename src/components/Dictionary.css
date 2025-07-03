@@ -1,0 +1,302 @@
+/* Professional, attractive dark theme background */
+/* Stylish and modern animated gradient background */
+body {
+  background: linear-gradient(-90deg, #1a1a1a,#ff1493,#b24592, #0d0d0d,#ff1493,#b24592,#1a1a1a,#ff1493,#b24592);
+  background-size: 400% 400%;
+  animation: gradientFlow 15s ease infinite;
+  color: #f8f8f8;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  40% {
+    background-position: 100% 50%;
+  }
+   60% {
+    background-position: 60% 50%;
+  }
+   80% {
+    background-position: 80% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  0% {
+    background-position: 0% 50%;
+  }
+  40% {
+    background-position: 100% 50%;
+  }
+   60% {
+    background-position: 60% 50%;
+  }
+   80% {
+    background-position: 80% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  0% {
+    background-position: 0% 50%;
+  }
+  40% {
+    background-position: 100% 50%;
+  }
+   60% {
+    background-position: 60% 50%;
+  }
+   80% {
+    background-position: 80% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #000000;
+  border: 3px solid #ff1493;
+  border-radius: 16px;
+  padding: 30px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 10px 10px 25px rgba(255, 105, 180, 0.041);
+  transition: 0.4s ease-in-out;
+}
+
+.card .heading {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  color: #ff69b4;
+  filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+  text-shadow: 2px 3px 3px rgba(255, 105, 180, 0.2);
+  animation: fadeIn 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card /* Icon styling inside heading */
+.heading-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.text-area {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 3px solid #ff1493;
+   box-shadow: 10px 10px 25px rgba(255, 105, 180, 0.041);
+    filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+  border-radius: 10px;
+  resize: none;
+  background-color: #fefefe;
+  color: #000000;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  transition: 0.3s ease;
+}
+
+.text-area:focus {
+  outline: none;
+  border-color: #ff69b4;
+  box-shadow: 0 0 6px rgba(255, 105, 180, 0.5);
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button-group button{
+  padding: 12px 26px;
+ border: 3px solid #868686;
+   box-shadow: 10px 10px 25px rgba(255, 105, 180, 0.041);
+    filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.5px;
+}
+
+/* ✅ Unified Translate Button */
+.translate-btn {
+  background: linear-gradient(to right, #ff69b4, #b24592); /* Stylish fixed gradient */
+  color: rgb(0, 0, 0);
+   filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+}
+
+.btn{
+   background: linear-gradient(to right, #ff69b4, #b24592); /* Stylish fixed gradient */
+  color: rgb(0, 0, 0);
+   filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+}
+.btn:hover{
+  background: linear-gradient(to right, #ff1493, #903f8c);
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+   filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+}
+.translate-btn:hover {
+  background: linear-gradient(to right, #ff1493, #903f8c);
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+   filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+}
+
+/* Switch Button */
+.switch-btn {
+  background: linear-gradient(to right, #6a5acd, #00bcd4);
+  color: rgb(0, 0, 0);
+   filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+}
+.switch-btn:hover {
+  background: linear-gradient(to right, #5c48b4, #00a1b4);
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.3);
+   filter: drop-shadow(3px 3px 3px rgba(255, 105, 180, 0.4));
+}
+
+.translation {
+  margin-top: 30px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(135deg, #3a3a3a, #2a2a2a);
+  padding: 18px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.translation::before {
+  content: "🔁 Translation";
+  display: block;
+  font-size: 1rem;
+  color: #ffb6c1;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.error {
+  color: #ff4c4c;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+} 
+
+/* ...your existing CSS above remains unchanged... */
+
+/* 📱 Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .card .heading {
+    font-size: 1.6rem;
+    gap: 6px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .card .heading-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .text-area {
+    padding: 12px;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .button-group button {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+  }
+
+  .translation {
+    font-size: 1rem;
+    padding: 14px 16px;
+  }
+
+  .translation::before {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 16px;
+  }
+
+  .card .heading {
+    font-size: 1.4rem;
+  }
+
+  .text-area {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .button-group button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .translation {
+    font-size: 0.95rem;
+  }
+
+  .translation::before {
+    font-size: 0.85rem;
+  }
+}
